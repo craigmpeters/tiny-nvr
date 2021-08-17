@@ -7,7 +7,7 @@
 #       rtsp://username:password@address:port//Streaming/Channels/2 \
 #       camera1
 
-FROM alpine:3.8
+FROM arm64v8/alpine
 
 LABEL version="1.0" \
       maintainer="hpaolini"
